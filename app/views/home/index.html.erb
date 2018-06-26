@@ -18,11 +18,152 @@
 					<li><%= link_to 'Home', root_path %></li>	
 				</ul>
 
+				<ul class="list-unstyled text-center">
+					<li><h1>EMPRESA</h1></li>
+					<li><hr></li>
+				</ul>
+				
+				<div class="row">
+					<div class="col-md-6">
+						<p>
+							A Media Portal é uma empresa brasileira que atua no desenvolvimento de soluções para arquivamento e gestão de grandes acervos digitais.
+
+							Fundada em 2008 a empresa tem trabalhado em projetos pioneiros e inovadores, e em mercados distintos, onde pôde ao longo desses quase 10 anos, demonstrar sua versatilidade e alto grau de tecnologia integrada em suas soluções.
+
+							Entre nossas especialidades destacamos a recente integração de nosso sistema com os abundantes recursos que a computação em nuvem oferece, tais como, elasticidade, resiliência e escalabilidade. Também mantemos a prestação de serviço e elaboração de projetos dedicados e customizados, oferecendo serviços ainda mais personalizados aos nossos clientes.
+
+							Contamos com uma equipe qualificada, suporte e pós venda ativos, além de uma rede de parceiros que garantem a eficiência e qualidade técnica dos nossos projetos.
+						</p>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="jumbotron"></div>	
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
 </section>
 
+<section id='testimonial'>
+	<div class='container'>
+		<div class="row">
+			<div class='col-md-12'>
+				<ul class="list-unstyled text-center">
+					<li><h1>DEPOIMENTOS</h1></li>
+					<li></li>
+				</ul>
+
+				<div class="row">
+					<div class="col-md-12">
+						<blockquote>
+							" A Media Portal se envolve com os detalhes. "
+						</blockquote>
+						<ul class='list-unstyled'>
+							<li><%= image_tag('', class: 'avatar pull-left',) %></li>
+							<li><h5><strong>Fernando Moura</strong></h5></li>
+							<li><p>Editor Chefe - Revista da SET</p></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id='area'>
+	<div class='container'>
+		<div class="row">
+			<div class='col-md-12'>
+				<ul class="list-unstyled text-center">
+					<li><h1>ÁREAS DE ATUAÇÃO</h1></li>	
+					<li><p>A Media Portal mantém a sua linha	de projetos customizados
+					e dedicados através da prestação de serviços profissionais.</p></li>
+					<li><hr></li>
+				</ul>
+				
+				<% for i in 1..8 %>
+					<div class='col-md-3'>
+						<div class='panel panel-default'>
+							<div class="jumbotron"></div>
+						</div>
+					</div>
+				<% end %>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id='service'>
+	<div class='container'>
+		<div class="row">
+			<div class='col-md-12'>
+				<ul class='list-unstyled text-center'>
+					<li><h1>SERVIÇOS</h1></li>	
+				</ul> 
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-md-12">
+							<ul class="list-unstyled text-right">
+								<li>
+										<h4>MIGRAÇÃO DE META DADOS
+										<i class='glyphicon glyphicon-search'></i> </h4>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-12">
+							<ul class="list-unstyled text-right">
+								<li>
+										<h4>CUSTOMIZAÇÃO DAS SOLUÇÕES
+										<i class='glyphicon glyphicon-search'></i></h4>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-12">
+							<ul class="list-unstyled text-right">
+								<li>
+										<h4>INTEGRAÇÃO COM SISTEMAS LEGADOS
+										<i class='glyphicon glyphicon-search'></i></h4>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-12">
+							<ul class="list-unstyled text-left">
+								<li>
+										<h4>MIGRAÇÃO DE META DADOS
+										<i class='glyphicon glyphicon-search'></i> </h4>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-12">
+							<ul class="list-unstyled text-left">
+								<li>
+										<h4>CUSTOMIZAÇÃO DAS SOLUÇÕES
+										<i class='glyphicon glyphicon-search'></i></h4>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-12">
+							<ul class="list-unstyled text-left">
+								<li>
+										<h4>INTEGRAÇÃO COM SISTEMAS LEGADOS
+										<i class='glyphicon glyphicon-search'></i></h4>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
 
 <section id='blog'>
 	<div class='container'>
