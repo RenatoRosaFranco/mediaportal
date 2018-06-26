@@ -10,7 +10,7 @@
     <script type="text/javascript"><%= yield :js %></script>
   </head>
 
-  <body>
+  <body class="<%= controller.controller_name %>">
     <%= render partial: 'layouts/header' %>
     <%= yield %>
     <%= render partial: 'layouts/footer' %>

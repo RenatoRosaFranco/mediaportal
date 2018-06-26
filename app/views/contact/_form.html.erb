@@ -1,26 +1,31 @@
 <%= form_for(@contact) do |f| %>
 	
-	<!-- 
-	<%= has_errors?(@contact) %>
-	-->
-	
 	<div class="field">
 		<%= f.label :name %>
+		<div class='input-group'>
+			<div class='input-group-addon'><i class='glyphicon glyphicon-search'></i></div>
 		<%= f.text_field :name, class: 'form-control',
 		required: 'required', placeholder: 'Digite o nome',
 		autocomplete: 'off' %>
+		</div>
 	</div>
 	<div class="field">
 		<%= f.label :phone %>
+		<div class='input-group'>
+			<div class='input-group-addon'><i class='glyphicon glyphicon-search'></i></div>
 		<%= f.text_field :phone, class: 'form-control',
 		required: 'required', placeholder: 'Digite o telefone',
 		autocomplete: 'off' %>
+		</div>
 	</div>
 	<div class="field">
 		<%= f.label :email %>
+		<div class='input-group'>
+			<div class='input-group-addon'><i class="glyphicon glyphicon-search"></i></div>
 		<%= f.email_field :email, class: 'form-control',
 		required: 'required', placeholder: 'Digite o e-mail',
 		autocomplete: 'off' %>
+		</div>
 	</div>
 	<div class="field">
 		<%= f.label :message %>
@@ -28,7 +33,7 @@
 		required: 'required', placeholder: 'Deixe sua mensagem',
 		autocomplete: 'off' %>
 	</div>
-	<div class="field">
+	<div class="field"><br />
 		<%= f.submit 'Enviar Mensagem', class: 'btn btn-primary btn-lg top' %>
 	</div>
 <% end %>

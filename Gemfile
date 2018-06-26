@@ -46,7 +46,7 @@ group :development, :test do
   gem 'responders'
   gem 'bootstrap-sass'
   gem 'jquery-rails'
-  gem 'ffaker'
+  gem 'faker'
   gem 'factory_bot'
   gem 'devise'
 end
